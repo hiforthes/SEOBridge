@@ -7,7 +7,7 @@ BeautifulSoup,
 Requests,
 MYSQL
 
-First time using On-Page SEO : Open bridge.py fill your MYSQL Connection and run file.
+First time using On-Page SEO : Open bridge.py fill your MYSQL Connection & add Website SITEMAP URL and run file.
 
 First time using Backlink Monitor : Open monitor.py fill your MYSQL Connection and run file. Before this do not forget add your backlinks.
 
