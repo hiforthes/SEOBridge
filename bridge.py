@@ -18,7 +18,7 @@ class seo_bridge():
     
     def __init__(self):
         self.mydb = mysql.connector.connect(host="localhost",user="root",password="",database="seobridge")
-        self.url = 'https://forthes.com/sitemap.xml'
+        self.url = 'https://WEBSITE.com/sitemap.xml'
         self.sitemapsoup = BeautifulSoup(requests.get(self.url).content, 'lxml')
         self.sitemapurls = self.sitemapsoup.find_all("loc")
         self.xml_urls = [sitemapurl.text for sitemapurl in self.sitemapurls]
