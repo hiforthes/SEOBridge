@@ -1,0 +1,60 @@
+@font-face {
+  font-family: seobridge-font;
+  src: url("Inter-Regular.ttf");
+}
+* {
+  font-family: "seobridge-font";
+}
+.bridge-button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.bridge-good {
+  background-color: #7fff00;
+}
+.bridge-bad {
+  background-color: #800000;
+}
+section {
+  margin: 1rem auto;
+  width: min(80%);
+}
+.seobridge {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.seobridge .seobridge-exp {
+  padding-bottom: 1rem;
+}
+.seobridge .seobridge-table table {
+  width: 100%;
+}
+.seobridge .seobridge-table td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.seobridge-focus {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.seobridge-focus div {
+  border: 1px solid rgb(88, 102, 126);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 15px 25px;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
